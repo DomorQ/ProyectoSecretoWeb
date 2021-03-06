@@ -9,10 +9,12 @@ nav p {
 }
 
 #imagen {
-    background-color: aqua;
+    background-color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: coral;
     border-radius: 12px;
+    padding: 200px;
+    text-align: center;
 }
 
 #footer {
