@@ -7,3 +7,16 @@ html {
 nav p {
     text-align: center;
 }
+
+#imagen {
+    background-color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: coral;
+    border-radius: 12px;
+}
+
+#footer {
+    background-color: blueviolet;
+    margin: 0 auto;
+    padding: 15px;
+}
