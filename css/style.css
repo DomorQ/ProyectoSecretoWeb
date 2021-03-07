@@ -18,20 +18,19 @@ header {
 header nav {
     display: flex;
     justify-content: flex-end;
-    
 }
 
 header nav .nav-right-section {
     width: 250px;
     height: auto;
-    display: flex;
-    list-style: none;
-    justify-content: center;
+    display: flex; /*se usa flex para modificar*/
+    list-style: none; /*esta parte quita los item de punto a las palabras */
+    justify-content: center; /*alinea de manera central el texto*/
     align-items: center;
 }
 
 nav .nav-right-section a {
-    margin-right: 10px;
+    margin-right: 10px; /*Crea un espacio entre las letras*/
     color: #000000;
 }
 
