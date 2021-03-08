@@ -56,8 +56,7 @@ main {
 main .main-logo {
     width: 530px;
     margin: 0 auto;
-    margin-bottom: 35px;
-    
+    margin-bottom: 35px;  
 }
 
 main .main-logo img{
@@ -74,7 +73,7 @@ main .main-input {
 main .main-input-container {
     width: 525px;
     border-radius: 100px;
-    border: 15px color red;
+    border: 15px color #e9eaed;
     display: flex;
     justify-content: center;
     align-items: center;
