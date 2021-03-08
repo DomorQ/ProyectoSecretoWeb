@@ -48,18 +48,42 @@ nav .nav-right-section img {
     margin-left: 10px;
 }
 
-/* #imagen {
-    background-color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border: coral;
-    border-radius: 12px;
-    padding: 200px;
+main {
+    margin-top: 150px;
     text-align: center;
 }
 
-#footer {
-    background-color: blueviolet;
+main .main-logo {
+    width: 530px;
     margin: 0 auto;
-    padding: 15px;
-} */
+    margin-bottom: 35px;
+    
+}
+
+main .main-logo img{
+    height: 92px;
+    width: 272px;
+}
+
+main .main-input {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px; /*empuja hacia abajo los botones*/
+}
+
+main .main-input-container {
+    width: 525px;
+    border-radius: 100px;
+    border: 15px color red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input input {
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
 
