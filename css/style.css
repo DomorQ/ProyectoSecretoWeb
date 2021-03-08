@@ -43,6 +43,11 @@ nav .nav-right-section .menu-icon {
     height: 25px;
 }
 
+nav .nav-right-section img {
+    border-radius: 50%; /*hace que la foto se haga redonda*/
+    margin-left: 10px;
+}
+
 /* #imagen {
     background-color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
