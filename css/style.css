@@ -49,7 +49,7 @@ nav .nav-right-section img {
 }
 
 main {
-    margin-top: 145px;
+    margin-top: 135px;
     text-align: center;
 }
 
@@ -134,3 +134,44 @@ main .main-buttons button {
     margin-right: 15px;
 }
 
+main .main-buttons button:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0px 1px 1px rgb(0, 0, 0,0.1);
+    color: #222;
+    background-color: #f8f8f8;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    position: absolute; /*estara el footer en el fonod de la pagina*/
+    bottom: 0; /*esta linea igual a la de arriba*/
+    display: grid;
+    grid-template-columns: 1fr 1fr; /*se divide en dos fracciones*/
+    align-items: center;
+    font-size: 13px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer ul {
+    margin: 10px;
+    list-style: none; /*se resetea el estilo y se quita los puntitos*/
+    display: inline-flex;
+    padding-left: 0;
+}
+
+footer .footer-left {
+    justify-content: left; /*justifica un contenido en este caso todo se va a la izuierda*/
+}
+
+footer .footer-right {
+    justify-content: flex-end; /*justifica el contenido y en este caso todo se va a la derecha ___** use felx end para alinear al lado derecho*/
+}
+
+footer ul li a {
+    margin: 10px;
+    color: #5f6368;
+}
+
+/*SE CULMINO LA REPLICA DE GOOGLE PERSONALIZADO*/
